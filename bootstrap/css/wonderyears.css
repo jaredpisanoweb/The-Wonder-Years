@@ -1,3 +1,27 @@
-html{
-	background-image: url(images/hank.jpg);
+/*
+Developer: Jared Pisano
+Table of Contents
+Header: Logo, Band Image
+Main Content: Band Bio, band Members, Discography
+Footer: Copywrite info
+Color Palette:
+#33738F - Light Blue
+#D5852E - Orange
+#C1202F - Red
+#1F3743 - Navy Blue
+#BBCEB8 - Grey
+*/
+body{
+	font-family: Impact, sans-serif;
+	width: 75%;
+	height: 100%;
+	background-image: url("WonderYearsB&W.jpg");
+	margin:auto;
+	font-size: 24px;
+	color: #C1202F;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	font-size: 40px;
 }
