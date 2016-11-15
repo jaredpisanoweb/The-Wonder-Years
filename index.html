@@ -169,32 +169,37 @@
 <form id="signup" method="post" action="#">
 
 			<h2 id="SignUp">Stay Up To Date!</h2>
-			<h2>What are you interested in hearing about?</h2>
+			<input id="firstName" type="text" placeholder="First Name">
 
-			
-			<input id="cat-d" type="checkbox" name="Tour"><label for="cat-d">Tour</label>
-			<br>
-			<input id="cat-h" type="checkbox" name="Band News"><label for="cat-h">Band News</label>
-			<br>
-			<input id="cat-j" type="checkbox" name="Tickets"><label for="cat-j">Tickets</label>
-			<br>
+			<input type="text" placeholder="Last Name">
 
-			<fieldset>
-				
-				<h3>How often would you like to hear from us?</h3>
-				<select id="frequency">
-					<option value="daily">Daily</option>
-					<option value="weekly">Weekly</option>
-					<option value="monthly">Monthly</option>
-				</select>
-				<br>
-	
-				<h3>Comments</h3>
-				<textarea name="requests" rows="3" placeholder="Have something to say? We're all ears!"></textarea>
-					<h3>Email</h3>
+			<input type="text" placeholder="Address">
+
+			<input type="text" placeholder="City">
+
+			<input type="text" placeholder="State">
+
+			<input type="text" placeholder="Zip">
+
+			<input type="text" placeholder="Birthday">
+
 			<input id="email" type="text" placeholder="Email Address"><br>
 
+		<fieldset>
+				<h3>How would you like your emails delivered?</h3>
+				<select id="frequency">
+					<option value="daily">HTML</option>
+					<option value="weekly">Plain Text</option>
+				</select>
+				<br>
+					<h3>Comments</h3>
+				<textarea name="requests" rows="3" placeholder="Have something to say? We're all ears!"></textarea><br>
+		
+
 			<input type="submit" value="Sign me up"><br>
+
+
+			<input id="cat-d" type="checkbox" name="Tour"><label for="cat-d">By checking this box, I am agreeing to the terms and conditions</label><br>
 
 			<a href="#top">Back To Top</a>
 
