@@ -13,9 +13,6 @@ Color Palette:
 */
 body{
 	font-family: Impact, sans-serif;
-	width: 75%;
-	height: 100%;
-	background-image: url("WonderYearsB&W.jpg");
 	margin:auto;
 	font-size: 24px;
 	color: #C1202F;
@@ -24,4 +21,7 @@ body{
 ul{
 	list-style-type: none;
 	font-size: 40px;
+}
+.members{
+	border-radius: 12px
 }

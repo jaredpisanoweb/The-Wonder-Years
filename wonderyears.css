@@ -1,0 +1,90 @@
+/*
+Developer: Jared Pisano
+Table of Contents
+Header: Logo, Band Image
+Main Content: Band Bio, band Members, Discography
+Footer: Copywrite info
+Color Palette:
+#33738F - Light Blue
+#D5852E - Orange
+#C1202F - Red
+#1F3743 - Navy Blue
+#BBCEB8 - Grey
+*/
+body{
+	width: 100%;
+	height: 100%;
+	font-family: Impact, sans-serif;
+	color: #1F3743;
+	margin: auto;
+	text-align: center;
+	font-size: 2.5em;
+	background-color: #33738F;
+}
+form{
+
+	width: 50%;
+	border: 3px dotted #BBCEB8;
+	border-radius: 45px;
+	margin: 20px auto 30px auto;
+	padding: 15px 25px 25px 25px;
+	background: #D5852E;
+	color: #C1202F;
+	
+}
+h1{
+	padding: 10px 40px 10px 40px;
+}
+ul{
+	list-style: none;
+}
+img.album:Hover{
+	filter: blur(15px);
+}
+#logo{
+	width: 100%;
+	height: auto;
+	box-shadow: 12px 12px 14px -12px black;
+}
+.nav{
+	font-size: 1.55em;
+	background: #D5852E;
+}
+.member{
+	border-radius: 45px;
+	border: 5px solid #D5852E;
+	box-shadow: 12px 12px 14px -12px black;
+}
+.album{
+	width: auto;
+	height: auto;
+	box-shadow: 12px 12px 14px -5px black;
+}
+.imgWrap{
+	position: relative;
+}
+.tracks{
+	font-family: sans-serif;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 23px;
+	color: #4BFF71;
+}
+.imgWrap:Hover .tracks{
+	visibility: visible;
+	opacity: 1;
+}
+.sources{
+	font-size: 20px;
+}
+a:link{
+	color: #1F3743;
+}
+a:visited{
+	color: #1F3743;
+}
